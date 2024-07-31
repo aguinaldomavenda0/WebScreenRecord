@@ -21,12 +21,12 @@ This project is a web application that allows users to record their screen and/o
 ## Screenshots
 
 1. **Home Screen**
-   ![Home Screen](https://raw.githubusercontent.com/username/repository/main/images/1.png)
+   ![Home Screen](https://raw.githubusercontent.com/aguinaldomavenda0/WebScreenRecord/main/1.png)
 
 2. **Screen Recording**
-   ![Screen Recording](https://raw.githubusercontent.com/username/repository/main/images/2.png)
+   ![Screen Recording](https://raw.githubusercontent.com/aguinaldomavenda0/WebScreenRecord/main/2.png)
 
 3. **Camera Recording**
-   ![Camera Recording](https://raw.githubusercontent.com/username/repository/main/images/3.png)
+   ![Camera Recording](https://raw.githubusercontent.com/aguinaldomavenda0/WebScreenRecord/main/3.png)
 
  
