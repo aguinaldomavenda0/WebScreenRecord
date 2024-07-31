@@ -8,27 +8,25 @@ This project is a web application that allows users to record their screen and/o
 - Record screen and camera together
 - Download recorded videos
 
-### Installation
+## Installation And Preview
 
-1. Clone the repository:
+1. Link preview Project:
+   [Web Screen Record](https://aguinaldomavenda.pagina.ao/screenrecord)
+
+2. Clone the repository:
    ```sh
    git clone https://github.com/aguinaldomavenda0/WebScreenRecord.git
 
 
+## Screenshots
 
+1. **Home Screen**
+   ![Home Screen](https://raw.githubusercontent.com/username/repository/main/images/1.png)
 
-# Web Screen Record
+2. **Screen Recording**
+   ![Screen Recording](https://raw.githubusercontent.com/username/repository/main/images/2.png)
 
-Este projeto é uma aplicação web que permite aos usuários gravar sua tela e/ou câmera. A aplicação é construída usando HTML, CSS e JavaScript, e utiliza a API MediaRecorder para lidar com as gravações de vídeo. O design é inspirado no Bootstrap para um visual leve e moderno.
+3. **Camera Recording**
+   ![Camera Recording](https://raw.githubusercontent.com/username/repository/main/images/3.png)
 
-## Features
-
-- Gravar apenas a tela
-- Gravar tela e câmera juntas
-- Baixar vídeos gravados
-
-### Installation
-
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/aguinaldomavenda0/WebScreenRecord.git
+ 
