@@ -131,3 +131,14 @@ function baixarVideo() {
     }
 
   }
+
+  function back() {
+    const back = document.getElementById('back');
+    if(back){
+        back.addEventListener('click', () => {
+            history.back();
+        });
+    }
+  }
+
+  back();

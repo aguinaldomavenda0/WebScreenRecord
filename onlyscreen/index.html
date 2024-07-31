@@ -3,27 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gravador de Tela</title>
+    <title>Screen Recorder</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1 class="text-center my-4">Gravador de Tela</h1>
+        <h1 class="text-center my-4">Screen Recorder</h1>
         <div class="text-center">
-            <button id="startBtn" class="btn btn-primary mr-2">Iniciar Gravação</button>
-            <button id="stopBtn" class="btn btn-danger ml-2" disabled>Parar Gravação</button>
+            <button id="startBtn" class="btn btn-primary mr-2">Start Record</button>
+            <button id="stopBtn" class="btn btn-danger ml-2" disabled>Stop Record</button>
         </div>
         <div id="videos" class="mt-4 d-none">
             <div class="row">
                 
-                <h3>Gravação da Tela</h3>
+                <h3>Screen Recorder</h3>
                 <video id="videoPlayback" controls class="mb-3"></video>
-                <button onclick="baixarVideo();" class="btn btn-primary mr-2">Baixar</button>
+                <button onclick="downloadVideo();" class="btn btn-primary mr-2">Download</button>
             </div>
         </div>
     </div>
-
+    <a class="btn btn-primary dd-line" id="back">
+        < - voltar
+    </a>
     <script src="recorder.js"></script>
 </body>
 </html>
