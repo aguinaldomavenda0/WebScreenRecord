@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravador de Tela e Câmera</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center my-4">Gravador de Tela e Câmera</h1>
+        <div class="text-center">
+            <button id="startBtn" class="btn btn-primary mr-2">Iniciar Gravação</button>
+            <button id="stopBtn" class="btn btn-danger ml-2" disabled>Parar Gravação</button>
+        </div>
+        <div id="videos" class="mt-4 d-none">
+            <div class="row">
+                
+                <h3>Gravação da Tela</h3>
+                <video id="screenPlayback" controls class="mb-3"></video>
+                <h3>Gravação da Câmera</h3>
+                <video id="cameraPlayback" controls class="mb-3"></video>
+            </div>
+        </div>
+    </div>
+
+    <script src="recorder.js"></script>
+</body>
+</html>
+
+
+ 
